@@ -29,7 +29,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 // ! Bien
-Route::get('/formato', function(){
+/* Route::get('/formato', function(){
     set_time_limit(0);
 
     // Generar el nombre del archivo y la ruta
@@ -37,7 +37,7 @@ Route::get('/formato', function(){
     $ruta_archivo = storage_path('app/' . $archivo);
 
     // Ejecutar el script de Node.js
-    exec('"C:\\Program Files\\nodejs\\node.exe" "C:\\xampp\\htdocs\\laravelreact\\reportes\\reporte.js" 1 "' . $ruta_archivo . '"', $salida, $retorno);
+    exec('"C:\\Program Files\\nodejs\\node.exe" "C:\\xampp\\htdocs\\laravelreactproyecto\\reportes\\reporte.js" 1 "' . $ruta_archivo . '"', $salida, $retorno);
 
     // DEBUG: Muestra si el archivo realmente existe
     if (file_exists($ruta_archivo)) {
@@ -45,10 +45,10 @@ Route::get('/formato', function(){
     }
 
     return response()->json(['error' => 'Archivo no encontrado', 'ruta' => $ruta_archivo], 404);
-})->name('formato');
+})->name('formato'); */
 
 
-/* Route::get('/formato', function(){
+Route::get('/formato', function(){
     set_time_limit(0);
 
     // 📌 Generar nombre de archivo y ruta en storage
@@ -56,7 +56,7 @@ Route::get('/formato', function(){
     $ruta_archivo = storage_path('app/' . $archivo);
 
     // 📌 Ejecutar Node.js con la ruta del archivo
-    $comando = '"C:\\Program Files\\nodejs\\node.exe" "C:\\xampp\\htdocs\\laravelreact\\reportes\\index.js" "' . $ruta_archivo . '"';
+    $comando = '"C:\\Program Files\\nodejs\\node.exe" "C:\\xampp\\htdocs\\laravelreactproyecto\\reportes\\index.js" "' . $ruta_archivo . '"';
     exec($comando, $salida, $retorno);
 
     // 📌 Verificar si el archivo se generó correctamente
@@ -71,7 +71,7 @@ Route::get('/formato', function(){
         'retorno' => $retorno
     ], 404);
 })->name('formato');
- */
+
 
 Route::any('/{a?}', function () {
     return view('/app');
