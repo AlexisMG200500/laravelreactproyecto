@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Formato_Laboratorio;
 use Illuminate\Http\Request;
+use Validator;
+use App\Http\Resources\Formato_Laboratorio as Formato_LaboratorioResource;
+use Illuminate\Validation\Rule;
 
 class Formatos_LaboratoriosController extends Controller
 {
