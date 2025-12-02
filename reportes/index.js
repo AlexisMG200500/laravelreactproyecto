@@ -23,6 +23,7 @@ var data = {
         { competencia: 'Procesamiento de información por medios digitales', calificacion: 10, letra: 'DIEZ PUNTO CERO' },
         { competencia: 'Resolución de problemas', calificacion: 10, letra: 'DIEZ PUNTO CERO' },
         { competencia: 'Desarrollo ciudadano', calificacion: 10, letra: 'DIEZ PUNTO CERO' }
+        
     ]
 };
 
