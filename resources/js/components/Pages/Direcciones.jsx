@@ -3,7 +3,7 @@ import { Card, Table } from "react-bootstrap";
 
 // URL y token
 const url = 'http://localhost:8000/api/direcciones';
-const token = '2|p1OQ9pwBeWWUiMILIM6XEHcMDZoFychzR7NmQqHCb215bc5b';
+const token = '1|7voxzhXRfM5E1kRos9rIIp84th3OR0XekGawSdMje46d44c6';
 
 export default function Direcciones(props) {
   // Estado para manejar los datos, carga y errores

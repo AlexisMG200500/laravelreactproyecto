@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 import useFetch from '../../hooks/useFetch';
 
 const opt = {};
-const token = '2|p1OQ9pwBeWWUiMILIM6XEHcMDZoFychzR7NmQqHCb215bc5b';
+const token = '1|7voxzhXRfM5E1kRos9rIIp84th3OR0XekGawSdMje46d44c6';
 
 export default function Direccion({url, id = 0}) {
     const [renderizado, setRenderizado] = useState(false);
