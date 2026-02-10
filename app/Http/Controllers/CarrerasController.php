@@ -10,7 +10,7 @@ use App\Models\Carrera;
 
 class CarrerasController extends Controller
 {
-     private $validationRules = [
+    private $validationRules = [
         'direccion_id' => 'required|integer|exists:direcciones,id'
         , 'carrera' => 'required|min:5|max:255'
         , 'abreviatura' => 'required|min:1|max:10|unique:carreras,abreviatura'

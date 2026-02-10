@@ -45,6 +45,7 @@
         "resolve-url-loader": "5.0.0",
         "sass-loader": "16.0.6",
         "update": "^0.7.4",
+        "upgrade": "^1.1.0",
         "yup": "1.7.1"
     },
     "pnpm": {
