@@ -15,6 +15,6 @@ export const METODO_DETALLE = 'GET';
 export const METODO_CREAR = 'POST';
 export const METODO_EDITAR = 'PUT';
 export const METODO_BORRAR = 'DELETE';
-export const API_TOKEN = '1|7voxzhXRfM5E1kRos9rIIp84th3OR0XekGawSdMje46d44c6';
+export const API_TOKEN = '1|mqUCZS43AZuo5wXihvz2pki05AkAalkecAX5VWbF172efcf6';
 export const CREAR = 'crear';
 export const EDITAR = 'editar';
