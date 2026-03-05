@@ -54,6 +54,11 @@
             "glob": "^10.3.10",
             "rimraf": "^5.0.5",
             "set-value": "^4.1.0"
-        }
+        },
+        "ignoredBuiltDependencies": [
+            "@parcel/watcher",
+            "core-js",
+            "esbuild"
+        ]
     }
 }
